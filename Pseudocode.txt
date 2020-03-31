@@ -1,0 +1,29 @@
+Function Main
+    Declare Integer i, n, m, jumlah
+    
+    Assign jumlah = 0
+    Output "Jumlah Bilangan = "
+    Input n
+    Declare Integer Array nilai[n]
+    
+    Output "masukkan batasan"
+    Input m
+    For i = 0 to m
+        Input nilai[i]
+    End
+    For i = 0 to m
+        Output nilai[i]
+    End
+    For i = 0 to m
+        Assign jumlah = jumlah + nilai[i]
+    End
+    Output "Hasil Penjumlahan : "
+    Output jumlah
+End
+
+Function sum
+    Declare Integer jumlah, i
+    
+    Assign jumlah = 0
+    Assign jumlah = jumlah+nilai[i]
+Return Integer 
